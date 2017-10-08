@@ -1,0 +1,30 @@
+body
+{
+ margin: 0;
+ left: 0;
+}
+.menu
+{
+   display:flex;
+   position: relative;
+   margin:0  30px;
+
+}
+a
+{
+     text-decoration: none;
+     flex-grow:1;
+     background: green;
+     color:white;
+     text-align: center;
+     padding: 15px;
+     border: 2px solid white;
+     transition: 0.5s;
+   }
+a:hover
+{
+  background: white;
+  color:green;
+  border:2px solid green;
+  transform:rotate(90deg);
+}

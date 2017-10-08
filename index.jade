@@ -1,0 +1,25 @@
+html
+      head
+           meta.utf-8
+           title this is first app
+           link(rel="stylesheet" href="style.css")
+           link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css")
+      body
+          div.container
+                section(id="content")
+                   h1 Login Here
+                   form
+                      div.wrapper
+                       i(class="fa fa-user")
+                       input(type="text",placeholder="Username", required)
+                    
+                      div.wrapper
+                        i(class="fa fa-lock")
+                        input(type="password",placeholder="Password", required)
+                       
+                      div
+                         input(type="submit",value="Login") 
+                      div
+                         a(href="#" style="float:left") Register New User
+                         a(href="#" style="float:right") Lost Your Password
+                         
